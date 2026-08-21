@@ -1,0 +1,6 @@
+{
+  "t_star_rf": 0.46,
+  "bucket_low_below": 0.46,
+  "bucket_high_at_or_above": 0.61,
+  "note": "Low if proba < t_star_rf; High if proba >= t_star_rf + 0.15; else Medium."
+}
