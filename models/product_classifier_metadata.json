@@ -1,0 +1,42 @@
+{
+  "model": "ResNet-18",
+  "dataset": "Fashion-MNIST",
+  "dataset_source": "Zalando Research Fashion-MNIST",
+  "input_size": "224x224",
+  "channels": 3,
+  "imagenet_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "imagenet_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "batch_size": 64,
+  "optimizer": "Adam",
+  "head_learning_rate": 0.001,
+  "fine_tune_learning_rate": 0.0001,
+  "head_epochs": 10,
+  "fine_tune_epochs": 3,
+  "train_size": 55000,
+  "validation_size": 5000,
+  "test_size": 10000,
+  "feature_extraction_validation_accuracy": 0.8952,
+  "final_validation_accuracy": 0.8952,
+  "test_accuracy": 0.8855,
+  "fine_tuning_used": false,
+  "class_names": [
+    "T-shirt/top",
+    "Trouser",
+    "Pullover",
+    "Dress",
+    "Coat",
+    "Sandal",
+    "Shirt",
+    "Sneaker",
+    "Bag",
+    "Ankle boot"
+  ]
+}
