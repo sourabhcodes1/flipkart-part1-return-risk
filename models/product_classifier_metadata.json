@@ -23,9 +23,9 @@
   "train_size": 55000,
   "validation_size": 5000,
   "test_size": 10000,
-  "feature_extraction_validation_accuracy": 0.8952,
-  "final_validation_accuracy": 0.8952,
-  "test_accuracy": 0.8855,
+  "feature_extraction_validation_accuracy": 0.8978,
+  "final_validation_accuracy": 0.8978,
+  "test_accuracy": 0.8861,
   "fine_tuning_used": false,
   "class_names": [
     "T-shirt/top",
